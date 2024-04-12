@@ -9,7 +9,7 @@ const CustomDrawer = (props) => {
     
     <DrawerContentScrollView {...props}>
         <DrawerItemList {...props}/>
-        <Button BtnName={'Buy Now'} width={s(100)} right={20}/>
+        <Button BtnName={'Buy Now'} width={s(100)} left={20}/>
     </DrawerContentScrollView>
   )
 }
